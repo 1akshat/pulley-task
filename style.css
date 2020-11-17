@@ -43,7 +43,7 @@ body, * {
 }
 
 .cap-card:hover {
-    border: 2px solid #000;
+    border: 2px solid #CCC;
 }
 
 .cap-card-text {
