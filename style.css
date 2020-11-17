@@ -1,4 +1,83 @@
-* {
+body, * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
 }
+
+/* Index Page */
+
+.cap-header {
+    margin: 35px 35px 0px 60px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    display: flex;
+    flex-direction: column;
+}
+
+.cap-header-tag {
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.cap-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.cap-card {
+    margin: 35px 35px 0px 60px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #53B58D;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgba(83, 181, 141, 0.05);
+    height: 93px;
+}
+
+.cap-card:hover {
+    border: 2px solid #000;
+}
+
+.cap-card-text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cap-card-text-heading {
+    line-height: 15.73px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cap-card-text-tag {
+    line-height: 14.52px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+
+p span {
+    background:#fff;
+    padding:0 10px;
+    color: #282828;
+}
+
+.cap-horizontal-line {
+    margin: 35px 35px 0px 60px;
+    padding-left: 12%;
+    border-bottom: 1px solid #D6E0DC;
+    line-height: 0.1em;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
